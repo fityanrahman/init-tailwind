@@ -1,0 +1,16 @@
+{
+  "name": "tailwind_binfo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/assets/css/style.css --watch",
+    "minify": "npx tailwindcss -o ./public/assets/css/final.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
